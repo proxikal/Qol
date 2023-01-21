@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "9weAxLCPDAB698Gu6OZW+sI6gtXMXUDDH15E8css/NDibB9/IEprSzWCZLvUJTBuMm5RK0/w15CKt4Eu5jLn8g==",
+  "success": true,
+  "projectFilePath": "f:\\Workspace\\Projects\\QolMain\\QCompiler\\QCompiler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\proxi\\.nuget\\packages\\microsoft.net.compilers\\3.6.0-4.final\\microsoft.net.compilers.3.6.0-4.final.nupkg.sha512",
+    "C:\\Users\\proxi\\.nuget\\packages\\mono.cecil\\0.11.2\\mono.cecil.0.11.2.nupkg.sha512",
+    "C:\\Users\\proxi\\.nuget\\packages\\mono.options\\6.6.0.161\\mono.options.6.6.0.161.nupkg.sha512",
+    "C:\\Users\\proxi\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
+    "C:\\Users\\proxi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.16\\microsoft.netcore.app.host.win-x64.3.1.16.nupkg.sha512"
+  ],
+  "logs": []
+}

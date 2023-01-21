@@ -1,0 +1,12 @@
+S:\Workspace\Projects\QolMain\QCompiler\bin\Debug\netstandard2.0\QCompiler.deps.json
+S:\Workspace\Projects\QolMain\QCompiler\bin\Debug\netstandard2.0\QCompiler.dll
+S:\Workspace\Projects\QolMain\QCompiler\bin\Debug\netstandard2.0\QCompiler.pdb
+S:\Workspace\Projects\QolMain\QCompiler\bin\Debug\netstandard2.0\Qol.dll
+S:\Workspace\Projects\QolMain\QCompiler\bin\Debug\netstandard2.0\Qol.pdb
+S:\Workspace\Projects\QolMain\QCompiler\obj\Debug\netstandard2.0\QCompiler.csprojAssemblyReference.cache
+S:\Workspace\Projects\QolMain\QCompiler\obj\Debug\netstandard2.0\QCompiler.AssemblyInfoInputs.cache
+S:\Workspace\Projects\QolMain\QCompiler\obj\Debug\netstandard2.0\QCompiler.AssemblyInfo.cs
+S:\Workspace\Projects\QolMain\QCompiler\obj\Debug\netstandard2.0\QCompiler.csproj.CoreCompileInputs.cache
+S:\Workspace\Projects\QolMain\QCompiler\obj\Debug\netstandard2.0\QCompiler.csproj.CopyComplete
+S:\Workspace\Projects\QolMain\QCompiler\obj\Debug\netstandard2.0\QCompiler.dll
+S:\Workspace\Projects\QolMain\QCompiler\obj\Debug\netstandard2.0\QCompiler.pdb

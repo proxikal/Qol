@@ -1,0 +1,2 @@
+S:\Workspace\Projects\QolMain\samples\hello\obj\Debug\netstandard2.0\hello.qolprojAssemblyReference.cache
+S:\Workspace\Projects\QolMain\samples\hello\obj\Debug\netstandard2.0\hello.qolproj.CoreCompileInputs.cache

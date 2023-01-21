@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "gcVoOU9O/ccXDxy7Ef3TzfAoHSFOVjasGdgwjEFzG7Ap9u72tnyjZS3wC6EiGflXNCUxpZAxrhNxIi7nYP6EHw==",
+  "success": true,
+  "projectFilePath": "f:\\Workspace\\Projects\\QolMain\\Qol\\Qol.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\proxi\\.nuget\\packages\\microsoft.net.compilers\\3.6.0-4.final\\microsoft.net.compilers.3.6.0-4.final.nupkg.sha512",
+    "C:\\Users\\proxi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\proxi\\.nuget\\packages\\mono.cecil\\0.11.2\\mono.cecil.0.11.2.nupkg.sha512",
+    "C:\\Users\\proxi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\proxi\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

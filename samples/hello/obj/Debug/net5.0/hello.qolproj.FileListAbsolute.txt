@@ -1,0 +1,10 @@
+S:\Workspace\Projects\QolMain\samples\hello\obj\Debug\net5.0\hello.qolprojAssemblyReference.cache
+S:\Workspace\Projects\QolMain\samples\hello\obj\Debug\net5.0\hello.qolproj.CoreCompileInputs.cache
+S:\Workspace\Projects\QolMain\samples\hello\bin\Debug\net5.0\hello.exe
+S:\Workspace\Projects\QolMain\samples\hello\bin\Debug\net5.0\hello.deps.json
+S:\Workspace\Projects\QolMain\samples\hello\bin\Debug\net5.0\hello.runtimeconfig.json
+S:\Workspace\Projects\QolMain\samples\hello\bin\Debug\net5.0\hello.runtimeconfig.dev.json
+S:\Workspace\Projects\QolMain\samples\hello\bin\Debug\net5.0\hello.dll
+S:\Workspace\Projects\QolMain\samples\hello\bin\Debug\net5.0\ref\hello.dll
+S:\Workspace\Projects\QolMain\samples\hello\obj\Debug\net5.0\hello.dll
+S:\Workspace\Projects\QolMain\samples\hello\obj\Debug\net5.0\hello.genruntimeconfig.cache

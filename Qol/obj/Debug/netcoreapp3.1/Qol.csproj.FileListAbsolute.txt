@@ -1,0 +1,9 @@
+S:\Workspace\Projects\QolMain\Qol\bin\Debug\netcoreapp3.1\Qol.deps.json
+S:\Workspace\Projects\QolMain\Qol\bin\Debug\netcoreapp3.1\Qol.dll
+S:\Workspace\Projects\QolMain\Qol\bin\Debug\netcoreapp3.1\Qol.pdb
+S:\Workspace\Projects\QolMain\Qol\obj\Debug\netcoreapp3.1\Qol.csprojAssemblyReference.cache
+S:\Workspace\Projects\QolMain\Qol\obj\Debug\netcoreapp3.1\Qol.AssemblyInfoInputs.cache
+S:\Workspace\Projects\QolMain\Qol\obj\Debug\netcoreapp3.1\Qol.AssemblyInfo.cs
+S:\Workspace\Projects\QolMain\Qol\obj\Debug\netcoreapp3.1\Qol.csproj.CoreCompileInputs.cache
+S:\Workspace\Projects\QolMain\Qol\obj\Debug\netcoreapp3.1\Qol.dll
+S:\Workspace\Projects\QolMain\Qol\obj\Debug\netcoreapp3.1\Qol.pdb

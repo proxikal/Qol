@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "restore": {
+    "f:\\Workspace\\Projects\\QolMain\\QCompiler\\QCompiler.csproj": {}
+  },
+  "projects": {
+    "f:\\Workspace\\Projects\\QolMain\\QCompiler\\QCompiler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "f:\\Workspace\\Projects\\QolMain\\QCompiler\\QCompiler.csproj",
+        "projectName": "QCompiler",
+        "projectPath": "f:\\Workspace\\Projects\\QolMain\\QCompiler\\QCompiler.csproj",
+        "packagesPath": "C:\\Users\\proxi\\.nuget\\packages\\",
+        "outputPath": "f:\\Workspace\\Projects\\QolMain\\QCompiler\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\proxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "f:\\Workspace\\Projects\\QolMain\\Qol\\Qol.csproj": {
+                "projectPath": "f:\\Workspace\\Projects\\QolMain\\Qol\\Qol.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Compilers": {
+              "target": "Package",
+              "version": "[3.6.0-4.final, )"
+            },
+            "Mono.Options": {
+              "target": "Package",
+              "version": "[6.6.0.161, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.16, 3.1.16]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "f:\\Workspace\\Projects\\QolMain\\Qol\\Qol.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "f:\\Workspace\\Projects\\QolMain\\Qol\\Qol.csproj",
+        "projectName": "Qol",
+        "projectPath": "f:\\Workspace\\Projects\\QolMain\\Qol\\Qol.csproj",
+        "packagesPath": "C:\\Users\\proxi\\.nuget\\packages\\",
+        "outputPath": "f:\\Workspace\\Projects\\QolMain\\Qol\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\proxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.NET.Compilers": {
+              "target": "Package",
+              "version": "[3.6.0-4.final, )"
+            },
+            "Mono.Cecil": {
+              "target": "Package",
+              "version": "[0.11.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

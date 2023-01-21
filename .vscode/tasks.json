@@ -1,0 +1,160 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/QRepl/QRepl.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/QRepl/QRepl.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "${workspaceFolder}/QRepl/QRepl.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-qolproj",
+            "command": "dotnet",
+            "type": "process",
+            "group": "build",
+            "options": {
+                "cwd": "${workspaceFolder}/samples"
+            },
+            "args": [
+                "build",
+                "${input:qolproj}"
+            ],
+            "presentation": {
+                "focus": true,
+                "clear": true
+            },
+            "problemMatcher": {
+                "fileLocation": "absolute",
+                "pattern": [
+                    {
+                        "regexp": "^(.*)\\((\\d\\,\\d\\,\\d\\,\\d\\))\\: (.*)$",
+                        "file": 1,
+                        "location": 2,
+                        "message": 3
+                    }
+                ]
+            }
+        },
+        // Builds and Runs the specified sample project as selected by the user
+        {
+            "label": "run-qolproj",
+            "command": "dotnet",
+            "type": "process",
+            "options": {
+                "cwd": "${workspaceFolder}\\samples"
+            },
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}\\QCompiler",
+                "${input:qolproj}"
+            ],
+            "presentation": {
+                "focus": true,
+                "clear": true
+            },
+            "problemMatcher": {
+                "fileLocation": "absolute",
+                "pattern": [
+                    {
+                        "regexp": "^(.*)\\((\\d\\,\\d\\,\\d\\,\\d\\))\\: (.*)$",
+                        "file": 1,
+                        "location": 2,
+                        "message": 3
+                    }
+                ]
+            }
+        },
+        // Builds and Runs the Minsk compiler with the currently opened file's folder path
+        {
+            "label": "qcompiler",
+            "command": "dotnet",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}\\samples"
+            },
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}\\QCompiler",
+                "--",
+                "${fileDirname}"
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            },
+            "problemMatcher": {
+                "fileLocation": "absolute",
+                "pattern": [
+                    {
+                        "regexp": "^(.*)\\((\\d\\,\\d\\,\\d\\,\\d\\))\\: (.*)$",
+                        "file": 1,
+                        "location": 2,
+                        "message": 3
+                    }
+                ]
+            }
+        }
+    ],
+    "inputs": [
+        // Inputs for the source projects. Be sure to update the list if you've added new project(s).
+        {
+            "id": "csproj",
+            "type": "pickString",
+            "description": "Pick your Source project",
+            "options": [
+                "QCompiler",
+                "QRepl",
+                "QolMain",
+                "QolTest"
+            ],
+            "default": "QCompiler"
+        },
+        // Inputs for the sample projects. Be sure to update the list if you've added new project(s).
+        {
+            "id": "qolproj",
+            "type": "pickString",
+            "description": "Pick your Sample Qol project",
+            "options": [
+                "hello"
+            ],
+            "default": "hello"
+        }
+    ]
+}

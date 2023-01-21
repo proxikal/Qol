@@ -1,0 +1,12 @@
+S:\Workspace\Projects\QolMain\Qol.Generators\bin\Debug\net5.0\Qol.Generators.deps.json
+S:\Workspace\Projects\QolMain\Qol.Generators\bin\Debug\net5.0\Qol.Generators.dll
+S:\Workspace\Projects\QolMain\Qol.Generators\bin\Debug\net5.0\ref\Qol.Generators.dll
+S:\Workspace\Projects\QolMain\Qol.Generators\bin\Debug\net5.0\Qol.Generators.pdb
+S:\Workspace\Projects\QolMain\Qol.Generators\obj\Debug\net5.0\Qol.Generators.csprojAssemblyReference.cache
+S:\Workspace\Projects\QolMain\Qol.Generators\obj\Debug\net5.0\Qol.Generators.GeneratedMSBuildEditorConfig.editorconfig
+S:\Workspace\Projects\QolMain\Qol.Generators\obj\Debug\net5.0\Qol.Generators.AssemblyInfoInputs.cache
+S:\Workspace\Projects\QolMain\Qol.Generators\obj\Debug\net5.0\Qol.Generators.AssemblyInfo.cs
+S:\Workspace\Projects\QolMain\Qol.Generators\obj\Debug\net5.0\Qol.Generators.csproj.CoreCompileInputs.cache
+S:\Workspace\Projects\QolMain\Qol.Generators\obj\Debug\net5.0\Qol.Generators.dll
+S:\Workspace\Projects\QolMain\Qol.Generators\obj\Debug\net5.0\ref\Qol.Generators.dll
+S:\Workspace\Projects\QolMain\Qol.Generators\obj\Debug\net5.0\Qol.Generators.pdb

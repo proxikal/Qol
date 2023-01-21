@@ -1,0 +1,27 @@
+<Project>
+    <Target Name="CreateManifestResourceNames" />
+    <Target Name="CoreCompile" DependsOnTargets="$(CoreCompileDependsOn)">
+        <!-- <ItemGroup>
+            <ReferencePath Remove="@(ReferencePath)"
+                           Condition="'%(Filename)' != 'System.Runtime' AND
+                                      '%(Filename)' != 'System.Console' AND
+                                      '%(Filename)' != 'System.Runtime.Extensions'" />
+        </ItemGroup> -->
+        <Exec Command="dotnet run --project &quot;$(MSBuildThisFileDirectory)\..\QCompiler\QCompiler.csproj&quot; -- @(Compile->'&quot;%(Identity)&quot;', ' ') /o &quot;@(IntermediateAssembly)&quot;"
+            WorkingDirectory="$(MSBuildProjectDirectory)" />
+    </Target>
+</Project>
+
+
+<!-- <Project>
+<Target Name="CreateManifestResourceNames" />
+<Target Name="CoreCompile" DependsOnTargets="$(CoreCompileDependsOn)">
+
+    <ItemGroup>
+    <_CorLib Include="@(ReferencePath)"
+            Condition="'%(ReferencePath.Filename)' == 'System.Runtime'" />
+    </ItemGroup>
+    <Exec Command="dotnet run -project &quot;$(MSBuildThisFileDirectory)\..\QCompiler\QCompiler.csproj&quot; - @(Compile->'&quot;%(Identity)&quot;', ' ') /o &quot;@(IntermediateAssembly)&quot; @(ReferencePath->'/r &quot;%(Identity)&quot;', ' ')"
+        WorkingDirectory="$(MSBuildProjectDirectory)" />
+</Target>
+</Project> -->

@@ -1,0 +1,9 @@
+S:\Workspace\Projects\QolMain\samples\hello\bin\Debug\netcoreapp3.1\hello.exe
+S:\Workspace\Projects\QolMain\samples\hello\bin\Debug\netcoreapp3.1\hello.deps.json
+S:\Workspace\Projects\QolMain\samples\hello\bin\Debug\netcoreapp3.1\hello.runtimeconfig.json
+S:\Workspace\Projects\QolMain\samples\hello\bin\Debug\netcoreapp3.1\hello.runtimeconfig.dev.json
+S:\Workspace\Projects\QolMain\samples\hello\bin\Debug\netcoreapp3.1\hello.dll
+S:\Workspace\Projects\QolMain\samples\hello\obj\Debug\netcoreapp3.1\hello.qolprojAssemblyReference.cache
+S:\Workspace\Projects\QolMain\samples\hello\obj\Debug\netcoreapp3.1\hello.qolproj.CoreCompileInputs.cache
+S:\Workspace\Projects\QolMain\samples\hello\obj\Debug\netcoreapp3.1\hello.dll
+S:\Workspace\Projects\QolMain\samples\hello\obj\Debug\netcoreapp3.1\hello.genruntimeconfig.cache
